@@ -1,0 +1,2 @@
+Act like a 10-year-experienced web copywriter and create 5-6 FAQs for a conference where developers and founders participate for a fee and share their experience. It's a paid conference, so add a payment-related query too. 
+ Now send me all the faq in HTML format and design them with CSS.
