@@ -107,3 +107,41 @@ body {
 .nav-links a:hover {
   color: #2f4fe0;
 }
+/* ---------- Hero ---------- */
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  padding: 110px 24px 60px;
+  background:
+    linear-gradient(rgba(5, 8, 15, 0.6), rgba(5, 8, 15, 0.6)),
+    url("./assets/banner.jpg") center / cover no-repeat;
+  background-color: #05080f;
+}
+
+
+.hero-content {
+  max-width: full;
+}
+.hero-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 24px;
+}
+
+
+.hero-title em {
+  font-style: italic;
+}
+
+
+.hero-text {
+  color: #c9cdd6;
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 220px;
+}
