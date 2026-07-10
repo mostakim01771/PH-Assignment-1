@@ -293,3 +293,75 @@ body {
 .price-card-featured .plan-features li::before {
   color: #7d95ff;
 }
+/*FAQ */
+.faq {
+  padding: 90px 48px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+
+.faq-list {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+
+.faq-item {
+  background: #fff;
+  border: 1px solid #e6e9f0;
+  border-radius: 14px;
+  padding: 0 24px;
+  box-shadow: 0 2px 10px rgba(15, 21, 36, 0.04);
+}
+
+
+.faq-item summary {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 30px 20px 0;
+  list-style: none;          /* hides default arrow */
+  position: relative;
+}
+
+
+.faq-item summary::-webkit-details-marker {
+  display: none;             /* hides arrow in Safari/Chrome */
+}
+
+
+/* custom +/− indicator */
+.faq-item summary::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 22px;
+  font-weight: 400;
+  color: #2f4fe0;
+}
+
+
+.faq-item[open] summary::after {
+  content: "−";
+}
+
+
+.faq-item p {
+  color: #4b5563;
+  font-size: 15px;
+  line-height: 1.65;
+  padding-bottom: 22px;
+}
+
+
+@media (max-width: 768px) {
+  .faq {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
